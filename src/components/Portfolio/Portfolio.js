@@ -1,7 +1,9 @@
+import {Projects} from "../Projects/Projects";
+
 const Portfolio = () => {
 return (
   <div>
-   Portfolio
+   <Projects/>
   </div>
 );
 };

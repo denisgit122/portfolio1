@@ -3,13 +3,13 @@
     .header{
         overflow: hidden;
         font-size: 6px;
-        height: 21px;
+        height: 32px;
         background: #101010;
         display: flex;
         justify-content: flex-end;
     }
     .icon{
-        top: 3px;
+        top: 8px;
         cursor: pointer;
         font-size: 15px;
         position: absolute;
@@ -60,10 +60,10 @@
         transition:transform 0.5s;
         display:block;
         font-size: 10px;
-
+z-index: 3;
     }
     ul.active{
-        transform: translateY(7px);
+        transform: translateY(12px);
     }
 
      a{
