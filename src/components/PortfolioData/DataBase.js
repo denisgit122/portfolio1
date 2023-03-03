@@ -6,7 +6,7 @@ const DataBase=[
     },
     {
         title:'Quiz',
-        img:'',
+        img:'../img/img.png',
         git:'https://github.com/denisgit122/portfolio1/tree/Quiz'
     },
     {
