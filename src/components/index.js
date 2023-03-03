@@ -1,0 +1,5 @@
+export * from './Header/Header'
+export * from './Portfolio/Portfolio'
+export * from './Contacts/Contacts'
+export * from './Home/Home'
+export * from './Switcher/Switcher'

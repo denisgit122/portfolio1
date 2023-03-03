@@ -1,0 +1,196 @@
+
+@media screen and (min-width: 0 ) and (max-width:420px){
+    .switch{
+        display: inline-block;
+        position: relative;
+        width: 16px;
+        height: 10px;
+       top: 5px;
+        /*margin-left: -100px;*/
+    }
+
+    .switch__inp{
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+    .switch__slider{
+        transition: 0.4s;
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 44px;
+        /*z-index: 2;*/
+        background-color: #444343;
+    }
+    .switch__slider::before{
+        content: '';
+        position: absolute;
+        cursor: pointer;
+        left: 1px;
+        bottom: 1px;
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background-color: white;
+        transition: 0.4s;
+        z-index: 2;
+    }
+    .switch__inp:focus + .switch__slider{
+        box-shadow: 0 0 1px cornflowerblue;
+    }
+    .switch__inp:checked + .switch__slider{
+        /*background-color: cornflowerblue;*/
+    }
+    .switch__inp:checked + .switch__slider::before{
+        transform: translateX(6px);
+    }
+    .moon{
+        position: absolute;
+        z-index: 1;
+        margin: 2px 1px ;
+        font-size: 6px;
+    }
+    .sun{
+        position: absolute;
+        z-index: 1;
+        margin: 7px 1px 1px -7px;
+        font-size: 6px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 420px ) and (max-width:968px){
+    .switch{
+        display: inline-block;
+        position: relative;
+        width: 30px;
+        height: 15px;
+
+    }
+    .switch__inp{
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+    .switch__slider{
+        transition: 0.4s;
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 44px;
+        background-color: #444343;
+    }
+    .switch__slider::before{
+        content: '';
+        position: absolute;
+        cursor: pointer;
+        left: 2px;
+        bottom: 1px;
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background-color: white;
+        transition: 0.4s;
+        z-index: 2;
+    }
+    .switch__inp:focus + .switch__slider{
+        box-shadow: 0 0 1px cornflowerblue;
+    }
+    .switch__inp:checked + .switch__slider{
+        /*background-color: cornflowerblue;*/
+    }
+    .switch__inp:checked + .switch__slider::before{
+        transform: translateX(13px);
+    }
+
+    .moon{
+        position: absolute;
+        z-index: 1;
+        margin: 2px 1.3px ;
+        font-size: 12px;
+    }
+    .sun{
+        position: absolute;
+        z-index: 1;
+        margin: 1px 1px 1px -14px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 968px) and (max-width:1924px){
+    .box{
+        margin-left: -600px;
+    }
+    .switch{
+        display: inline-block;
+        position: relative;
+        width: 60px;
+        height: 30px;
+        bottom: 3px;
+        /*margin-left: -100px;*/
+    }
+    .switch__inp{
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+    .switch__slider{
+        transition: 0.4s;
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 34px;
+        background-color: #444343;
+    }
+    .switch__slider::before{
+        content: '';
+        position: absolute;
+        cursor: pointer;
+        left: 4px;
+        bottom: 2px;
+        height: 26px;
+        width: 26px;
+        border-radius: 50%;
+        background-color: white;
+        transition: 0.4s;
+        z-index: 2;
+    }
+    .switch__inp:focus + .switch__slider{
+        box-shadow: 0 0 1px cornflowerblue;
+    }
+    .switch__inp:checked + .switch__slider{
+        /*background-color: cornflowerblue;*/
+    }
+    .switch__inp:checked + .switch__slider::before{
+        transform: translateX(26px);
+    }
+
+    .moon{
+        position: absolute;
+        z-index: 1;
+        margin: 5px 3px ;
+        font-size: 22px;
+    }
+    .sun{
+        position: absolute;
+        z-index: 1;
+        margin: 1px 1px 1px -26px;
+        font-size: 22px;
+    }
+}
+
