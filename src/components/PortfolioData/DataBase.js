@@ -9,7 +9,7 @@ const DataBase=[
         git:'https://github.com/denisgit122/project-react/tree/master/src'
     },
     {
-        title:'Quiz',
+        title:'Quizlet',
         img:img2,
         git:'https://github.com/denisgit122/portfolio1/tree/Quiz'
     },
@@ -17,6 +17,11 @@ const DataBase=[
         title:'Portfolio',
         img:img2,
         git:'https://github.com/denisgit122/portfolio1/tree/AboutMe'
+    },
+    {
+        title:'Movie site',
+        img:img,
+        git:'https://github.com/denisgit122/project-react/tree/master/src'
     }
 ]
 export {

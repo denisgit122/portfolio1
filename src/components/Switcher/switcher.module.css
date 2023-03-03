@@ -57,7 +57,7 @@
     .sun{
         position: absolute;
         z-index: 1;
-        margin: 7px 1px 1px -7px;
+        margin: 14px 1px 1px -7px;
         font-size: 6px;
     }
 

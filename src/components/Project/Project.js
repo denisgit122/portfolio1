@@ -1,20 +1,25 @@
 import css from './project.module.css'
+import {NavLink, useNavigate} from "react-router-dom";
 
 
-const Project = ({data}) => {
+const Project = ({data,index}) => {
   const {img}=data
-    console.log(img);
+
     return (
+
   <div className={css.boxProject}>
+      <NavLink to={`/portfolio/${index}`}>
+
       <div>
-          <h2 className={css.title}>{data.title}</h2>
+
           <div className={css.boxImg}>
               <img className={css.img} src={img} alt=""/>
           </div>
-
+          <h2 className={css.title}>{data.title}</h2>
       </div>
-
+      </NavLink>
   </div>
+
 );
 };
 
