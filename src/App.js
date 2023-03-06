@@ -3,7 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import './App.css';
 import './components/whiteStyle/whiteStyle.css'
 import {HeaderLayout} from "./Layout";
-import {AboutProj, Contacts, Home, Portfolio} from "./components";
+import {AboutProj, Contacts, Footer, Home, Portfolio} from "./components";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
             <Route path={'contacts'} element={<Contacts/>}/>
         </Route>
     </Routes>
+        <Footer/>
     </div>
   );
 }

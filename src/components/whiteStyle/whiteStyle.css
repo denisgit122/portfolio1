@@ -1,3 +1,32 @@
 .whit body{
     background: #d9d0d0;
 }
+.whit .skills {
+    color: #1a1a1a;
+}
+.whit .github{
+    color: #1a1a1a;
+}
+.whit .FaGithub{
+    color: #1a1a1a;
+}
+.whit .projTitl{
+    color: #1a1a1a;
+
+}
+.whit .boxChar{
+    background: radial-gradient(silver,#101010,darkslategrey);
+    box-shadow: 2px 1px 30px 10px #8f8d8d,
+    2px 1px 30px 10px darkslategray,
+    2px 1px 30px 10px darkcyan;
+;
+}
+.whit .href{
+    border: 1px solid black;
+}
+.whit .href:hover{
+    box-shadow: 0 1px 3px 2px #8f8d8d,
+    0 1px 10px 5px darkslategray,
+    0 1px 30px 3px darkcyan;
+;
+}

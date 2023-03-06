@@ -1,0 +1,140 @@
+.boxContact{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.icon{
+    margin-right: 10px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2px;
+    background: linear-gradient(blueviolet,#9f1414, #d5bc18);
+}
+.icon1{
+    background:blue;
+    padding-left: 3px;
+}
+.icon2{
+    background:#131313
+}
+.icon3{
+    background:#464696
+}
+.icon:hover{
+    background: #7a7a7a;
+}
+.boxIcon{
+    margin-top: -6vh;
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    margin-left: -20vh;
+}
+.boxIconName{
+    display: flex;
+    width: 11vw;
+    height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 19px;
+    cursor: pointer;
+
+}
+.boxIconName span{
+    color: #d9d0d0;
+}
+.type{
+    color: white;
+    width: 60vw;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    animation: typing 6s steps(220), blink .35s step-end infinite alternate paused;
+    overflow: hidden;
+
+}
+.typing{
+    display: grid;
+    height: 85vh;
+}
+.typeP{
+    color: white;
+    width: 60vw;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    animation: typing 1s steps(5),forwards .1s step-start infinite alternate-reverse;
+    overflow: hidden;
+
+}
+@media screen and (min-width: 0) and (max-width: 420px ) {
+.boxIcon{
+    display: block;
+    margin-left: -13vh;
+}
+    .typeP{
+        margin-top: 86vh;
+        width: 100vw;
+        position: absolute;
+    }
+    .icon3{
+       background: none;
+        margin-left: 10px;
+    }
+    .icon{
+        background: none;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 968px) {
+    .boxIconName{
+        padding: 10px;
+        width: 16vw;
+        margin-left: 4vh;
+    }
+    .type{
+        font-size: 9vh;
+        margin: 70px  1px 1px 50px ;
+    }
+    .typeP{
+        font-size: 4.4vh;
+        width: 29vw;
+        margin-top: -18vh;
+        margin-left: 15vh;
+        margin-right: 100px;
+    }
+    .icon{
+        color: #464696;
+    }
+
+
+}
+@media screen and (min-width: 968px) and (max-width: 1924px ) {
+   .type{
+       font-size: 13vh;
+       margin: 100px  1px 1px 180px ;
+   }
+    .typeP{
+    font-size: 5vh;
+        width: 29vw;
+        margin-top: -21vh;
+        margin-left: 28vh;
+        margin-right: 120px;
+    }
+    .icon{
+        color: #464696;
+    }
+
+}
+
+@keyframes typing {
+    /*Правило @keyframesCSS at-rule контролює проміжні кроки
+    в послідовності анімації CSS, визначаючи стилі для ключових кадрів
+    (або шляхових точок) уздовж послідовності анімації. Це дає більше контролю
+     над проміжними кроками послідовності анімації, ніж над переходами .*/
+    from{
+        width: 0;
+    }
+}
