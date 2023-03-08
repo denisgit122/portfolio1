@@ -69,7 +69,7 @@ return (
         <div>
             <h2 className={'frontDev'}> Back-end</h2>
             <ul className={'ul'}>
-                <li>MyAQL (basic knowledge),</li>
+                <li>MySQL (basic knowledge),</li>
                 <li>Node (basic knowledge),</li>
                 <li>MongoDB (basic knowledge)</li>
 
