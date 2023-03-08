@@ -158,8 +158,6 @@ margin-left: 1vh;
 
 @media screen and (min-width: 968px) and (max-width: 1924px ) {
     .projTitl{
-        /*top: 5;*/
-
         margin-left:89vh;
         font-size: 4vw;
        color: #d9d0d0;
@@ -187,7 +185,6 @@ margin-left: 1vh;
     box-shadow: 0 1px 30px 4px silver,
    0 1px 3px 3px cadetblue,
     0 1px 3px 6px cornflowerblue;
-;
 }
 .FaGithub{
     font-size: 4vh;

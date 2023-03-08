@@ -14,7 +14,7 @@ return (
           <div className={'boxIconName'}>
             <a href="https://www.facebook.com/denis.yaholnyk" target={"_blank"}>
                   <div  className={'icon && icon1'}>
-                      <FaFacebook style={{color:"whitesmoke", fontSize:"6vh"}}/>
+                      <FaFacebook className={'facebook && colIcon'} style={{ fontSize:"7vh"}}/>
                   </div>
             </a>
               <span>
@@ -25,7 +25,7 @@ return (
         <div  className={'boxIconName'}>
             <a href="https://instagram.com/den_yaholnyk?igshid=YmMyMTA2M2Y=" target={"_blank"}>
                 <div className={'icon'}>
-                    <FaInstagram style={{color:"whitesmoke", fontSize:"6vh"}}/>
+                    <FaInstagram className={' colIcon'} style={{ fontSize:"6vh"}}/>
                 </div>
             </a>
                 <span>
@@ -36,7 +36,7 @@ return (
         <div  className={'boxIconName'}>
             <a href="https://github.com/denisgit122?tab=repositories" target={"_blank"}>
                 <div  className={'icon && icon2'}>
-                    <FaGithub style={{color:"whitesmoke", fontSize:"6vh"}}/>
+                    <FaGithub className={' colIcon'} style={{ fontSize:"6vh"}}/>
                 </div>
             </a>
                 <span>
@@ -47,7 +47,7 @@ return (
 
         <div  className={'boxIconName'}>
              <div  className={'icon && icon3'}>
-                 <FaTwitter style={{color:"whitesmoke", fontSize:"6vh"}} />
+                 <FaTwitter className={' colIcon'} style={{ fontSize:"6vh"}} />
              </div>
             <span>
                 Twitter

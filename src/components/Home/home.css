@@ -1,0 +1,214 @@
+.backgroundHome{
+  background: #0e0e0e;
+    width: 100%;
+    height: 89vh;
+    overflow: hidden;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about{
+  color: white;
+  width: 60vw;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  text-shadow: red -3px 0,
+  cyan 3px 0;
+}
+.me{
+  color: white;
+  text-shadow: red -2px 0,
+  cyan 2px 0;
+}
+.front{
+  font-size: 5vh;
+  margin-left: 2vh;
+  margin-top: 10px;
+}
+.learning{
+  font-size: 4vh;
+}
+.frontend{
+  text-shadow: red -2px 0,
+  cyan 2px 0;
+  color: white;
+  position: absolute;
+  font-size: 9vh;
+  margin-left: 3vh;
+  margin-top: -1vh;
+  transform: rotate(60deg);
+
+}
+
+.Backend{
+  text-shadow: red -2px 0,
+  cyan 2px 0;
+  color: white;
+  position: absolute;
+  font-size: 8vh;
+  margin-top: 13vh;
+  transform: rotate(60deg);
+}
+
+
+
+@media screen and (min-width: 0) and (max-width: 420px ) {
+
+  .backgroundHome{
+    height: 44vh;
+  }
+  .about{
+    font-size: 4vh;
+    margin-left: 60px;
+  }
+  .me{
+    margin-left: 1vh;
+    font-size: 2.3vh;
+    margin-top: -35px;
+  }
+  .name{
+    margin-left: 10px;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -2px 0,
+    #cfd5d5 2px 0;
+  }
+  .front{
+    font-size: 1.8vh;
+    margin-left: 2vh;
+    margin-top: 10px;
+    text-shadow: red -1px 0,
+    cyan 1px 0;
+  }
+  .learning{
+    margin-left: 15px;
+    font-size: 1.8vh;
+    text-shadow: red -1px 0,
+    cyan 1px 0;
+  }
+
+  .ul {
+    background: none;
+    margin-top: 38vh;
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    padding-left: 30px;
+    font-size: 3vh;
+    display: block;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -1.6px 0,
+    #cfd5d5 1.6px 0;
+    /*padding-bottom: 10px;*/
+  }
+  .frontDev{
+
+    display: block;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -2px 0,
+    #cfd5d5 2px 0;
+  }
+
+  .Backend{
+    font-size: 2.7vh;
+    margin-top: 4.3vh;
+  }
+  .frontend{
+    font-size: 3.4vh;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 968px) {
+  .boxClip{
+    margin-left: -40vh;
+  }
+  .about{
+    font-size: 7vh;
+    margin-left:14vh;
+  }
+  .me{
+    margin-left: 5vh;
+    font-size: 3.5vh;
+    margin-top: -35px;
+  }
+  .name{
+    margin-left: 8px;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -2px 0,
+    #cfd5d5 2px 0;
+  }
+  .front{
+    font-size: 3.3vh;
+    margin-left: 2vh;
+    margin-top: 10px;
+  }
+  .learning{
+    font-size: 3vh;
+  }
+
+  .ul{
+    width: 10vw;
+    height: 3vh;
+    padding-left: 10px;
+    font-size: 3.3vh;
+    display: block;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -1.6px 0,
+    #cfd5d5 1.6px 0;
+    padding-bottom: 10px;
+
+  }
+  .frontDev{
+    padding-bottom: 40px;
+    width: 15vw;
+    height: 3vh;
+    font-size: 4.4vh;
+    display: block;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -2px 0,
+    #cfd5d5 2px 0;
+  }
+  .frontend{
+    font-size: 5vh;
+  }
+  .Backend{
+    font-size: 4vh;
+    margin-top: 8.4vh;
+  }
+}
+
+@media screen and (min-width: 968px) and (max-width: 1924px ) {
+  .about{
+    font-size: 7vh;
+    margin-left: 130px;
+  }
+  .me{
+    margin-left: 6vh;
+    font-size: 5vh;
+    margin-top: -10px;
+  }
+  .name{
+    margin-left: 10px;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -2px 0,
+    #cfd5d5 2px 0;
+  }
+
+  .ul{
+    font-size: 4vh;
+    display: block;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -1.6px 0,
+    #cfd5d5 1.6px 0;
+  }
+  .frontDev{
+    font-size: 5vh;
+    display: block;
+    color: #f4d9fa;
+    text-shadow: #a166b4 -2px 0,
+    #cfd5d5 2px 0;
+  }
+}
+
+

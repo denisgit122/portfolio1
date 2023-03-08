@@ -8,7 +8,7 @@ return (
 
       <div className={css.box}>
         <h1 className={css.proj}>Project</h1>
-        {DataBase.map((data,index)=><Project key={index} index={index} data={data}/>)}
+        {DataBase.map((data,index)=> <Project key={index} index={index} data={data}/>)}
       </div>
 
 

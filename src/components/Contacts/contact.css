@@ -16,8 +16,12 @@
 }
 .icon1{
     background:blue;
-    padding-left: 3px;
+    /*padding-left: 3px;*/
 }
+.facebook{
+position: absolute;
+    margin-left: -1px;
+ }
 .icon2{
     background:#131313
 }
@@ -26,6 +30,9 @@
 }
 .icon:hover{
     background: #7a7a7a;
+}
+.colIcon{
+    color:whitesmoke;
 }
 .boxIcon{
     margin-top: -6vh;
@@ -41,31 +48,35 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 19px;
+    margin-bottom: 5px;
     cursor: pointer;
 
 }
 .boxIconName span{
-    color: #d9d0d0;
+    color: white;
 }
 .type{
     color: white;
     width: 60vw;
     margin-top: 20px;
     margin-bottom: 40px;
-    animation: typing 6s steps(220), blink .35s step-end infinite alternate paused;
+    animation: typing 5s steps(220), blink .35s step-end infinite alternate paused;
     overflow: hidden;
-
+    text-shadow: red -3px 0,
+    cyan 3px 0;
 }
 .typing{
     display: grid;
     height: 85vh;
 }
 .typeP{
+    text-shadow: red -2px 0,
+    cyan 2px 0;
     color: white;
     width: 60vw;
     margin-top: 20px;
     margin-bottom: 40px;
-    animation: typing 1s steps(5),forwards .1s step-start infinite alternate-reverse;
+    animation: typingP 3s steps(45),forwards .1s step-start infinite alternate-reverse;
     overflow: hidden;
 
 }
@@ -91,6 +102,7 @@
 @media screen and (min-width: 420px) and (max-width: 968px) {
     .boxIconName{
         padding: 10px;
+        margin-bottom: 16px;
         width: 16vw;
         margin-left: 4vh;
     }
@@ -107,6 +119,10 @@
     }
     .icon{
         color: #464696;
+        box-shadow: 0 1px 30px 4px silver,
+        0 1px 3px 3px cadetblue,
+        0 1px 3px 6px cornflowerblue;
+    ;
     }
 
 
@@ -125,15 +141,21 @@
     }
     .icon{
         color: #464696;
+        box-shadow: 0 1px 30px 4px silver,
+        0 1px 3px 3px cadetblue,
+        0 1px 3px 6px cornflowerblue;
+    ;
     }
 
 }
 
 @keyframes typing {
-    /*Правило @keyframesCSS at-rule контролює проміжні кроки
-    в послідовності анімації CSS, визначаючи стилі для ключових кадрів
-    (або шляхових точок) уздовж послідовності анімації. Це дає більше контролю
-     над проміжними кроками послідовності анімації, ніж над переходами .*/
+    from{
+        margin-left: -600px;
+        width: 0;
+    }
+}
+@keyframes typingP {
     from{
         width: 0;
     }
