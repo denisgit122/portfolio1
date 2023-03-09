@@ -20,7 +20,7 @@ const DataBase=[
         title:'Portfolio',
         img:img3,
         git:'https://github.com/denisgit122/portfolio1/tree/AboutMe',
-        skills:"Css, react,jsx"
+        skills:"Css, react, adaptive "
     },
     {
         title:'Movie site',

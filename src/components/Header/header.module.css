@@ -4,8 +4,7 @@
         overflow: hidden;
         font-size: 6px;
         height: 42px;
-        /*background: #101010;*/
-        background: white;
+        background: #101010;
         display: flex;
         justify-content: flex-end;
     }
