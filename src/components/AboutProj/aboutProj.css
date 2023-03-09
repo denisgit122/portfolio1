@@ -37,6 +37,7 @@
 .skills{
     top: -20px;
     position: relative;
+    color: #d9d0d0;
 }
 @media screen and (min-width: 0) and (max-width: 420px ) {
     .headBox{
@@ -59,8 +60,10 @@
    }
     .skills {
         font-size: 12px;
-        margin-top: 20vh;
+        margin-top: 24vh;
         width: 40vw;
+        color: #d9d0d0;
+
     }
     .href:hover{
         box-shadow: 0 1px 30px 4px silver,
@@ -69,10 +72,10 @@
     ;
     }
 .href{
-    width: 90px;
+    width: 100px;
     height: 3vh;
     border: 1px solid white;
-    font-size: 2vh ;
+    font-size: 1.5vh ;
     display: flex;
     align-items: center;
     justify-content: center;
