@@ -1,6 +1,6 @@
 import img from'../img/img_1.png'
 import img2 from'../img/img.png'
-
+import img3 from '../img/img_2.png'
 
 const DataBase=[
     {
@@ -18,7 +18,7 @@ const DataBase=[
     },
     {
         title:'Portfolio',
-        img:img2,
+        img:img3,
         git:'https://github.com/denisgit122/portfolio1/tree/AboutMe',
         skills:"Css, react,jsx"
     },
