@@ -72,7 +72,9 @@ return (
                 <li>MySQL (basic knowledge),</li>
                 <li>Node (basic knowledge),</li>
                 <li>MongoDB (basic knowledge)</li>
-
+                <li>Express (basic knowledge)</li>
+                <li>Mongoose (basic knowledge)</li>
+                <li>TS</li>
             </ul>
 
         </div>
